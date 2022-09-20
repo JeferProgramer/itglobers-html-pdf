@@ -1,0 +1,7 @@
+{
+  "pdf-reader":{
+    "component": "PdfReader",
+    "render": "client"
+  }
+
+}
