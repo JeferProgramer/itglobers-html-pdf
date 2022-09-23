@@ -3,3 +3,9 @@
   justify-content: center;
   margin: 2%;
 }
+@media (max-width:900px) {
+  .container object{
+    width: 30px;
+    height: 20px;
+  }
+}
