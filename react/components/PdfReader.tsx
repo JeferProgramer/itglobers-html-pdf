@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {useCssHandles} from "vtex.css-handles"
+import {useDevice} from "vtex.device-detector"
 import "./styles.css"
 type Props = {
   pdfUrl: string,
