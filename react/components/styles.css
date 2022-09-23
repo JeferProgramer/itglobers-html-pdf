@@ -3,4 +3,18 @@
   justify-content: center;
   margin: 2%;
 }
-
+@media (max-width:1030px) and (min-width:710px){
+  .container iframe{
+    width: 600px;
+    height: 600px;
+  }
+  .container object {
+    width: 1600px;
+    height: 600px;
+  }
+}
+@media (max-width:500px) {
+  .container{
+    margin: 0%;
+  }
+}
