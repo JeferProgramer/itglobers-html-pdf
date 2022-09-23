@@ -23,8 +23,8 @@ const PdfReader = ({pdfUrl, width, height}: Props) => {
   return(
     mounted && (
       <div className={handles.container}>
-        <object data={pdfUrl} type="application/pdf" width={ isMobile ? 50 : width} height={isMobile ? 50 :height}>
-          <iframe title='PDF' src={pdfUrl} width={isMobile ? 150 : width} height={isMobile ? 150 :height}>
+        <object data={pdfUrl} type="application/pdf" width={ isMobile ? 1250 : width} height={isMobile ? 550 :height}>
+          <iframe title='PDF' src={pdfUrl} width={isMobile ? 400 : width} height={isMobile ? 500 :height}>
             <p>Este navegador no soporta PDF!</p>
           </iframe>
         </object>
