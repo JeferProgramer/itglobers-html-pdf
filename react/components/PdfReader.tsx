@@ -12,6 +12,7 @@ const PdfReader = ({pdfUrl, width, height}: Props) => {
 
   const CSS_HANDLES = ["container"]
   const handles = useCssHandles(CSS_HANDLES)
+  const {isMobile} = useDevice();
 
   const [mounted, setMounted] = useState(false)
 

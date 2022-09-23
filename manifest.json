@@ -11,7 +11,8 @@
     "store": "0.x"
   },
   "dependencies": {
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.device-detector": "0.x"
   },
   "registries": [
     "smartcheckout"
